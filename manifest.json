@@ -3,8 +3,16 @@
 	"version":"1.0",
 	"manifest_version":2,
 	"description":"Extension Google Maps",
+	"permissions": ["contextMenus","tabs"],
+	"background": {
+    "persistent": false,
+    "scripts": ["api.js"]
+  },
 	"browser_action":{
 		"default_icon":"icon.png",
 		"default_popup":"index.html"
+	},
+	"icons": {
+		 "16": "icon.png"
 	}
 }
