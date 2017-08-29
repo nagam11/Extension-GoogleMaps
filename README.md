@@ -1,7 +1,7 @@
-# GMaps Chrome Extension
+# GoogleMaps Chrome Extension
 Chrome Extension for looking up places in GoogleMaps.
 
-![Maps](Extension.png)
+<img src="Extension.png" width="400">
 
 ## Install
 1. git clone https://github.com/nagam11/Extension-GoogleMaps.git
